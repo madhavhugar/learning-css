@@ -122,3 +122,17 @@ button:hover {
 ```
 Pseudo-classes let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator (:visited, for example), the status of its content (like :checked on certain form elements), or the position of the mouse (like :hover, which lets you know if the mouse is over an element or not).
 
+## Pseudo elements
+
+**Pseduo classes**: define special state of an element (`a:hover`)
+**Pseudo elements**: define style for specific part of an element (`h1::after`)
+
+> A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph.
+
+```css
+/* The first line of every <p> element. */
+p::first-line {
+  color: blue;
+  text-transform: uppercase;
+}
+```
