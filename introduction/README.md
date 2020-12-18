@@ -110,3 +110,15 @@ If we want to center a block level element perfectly we can do so by setting
 
  Eg. `margin: 100px auto` centers the block element in the center on the horizontal axis, but does not do the same on the vertical axis (since 100px is set)
 
+## Pseudo classes
+
+> A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it.
+
+```css
+/* Any button over which the user's pointer is hovering */
+button:hover {
+  color: blue;
+}
+```
+Pseudo-classes let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator (:visited, for example), the status of its content (like :checked on certain form elements), or the position of the mouse (like :hover, which lets you know if the mouse is over an element or not).
+
