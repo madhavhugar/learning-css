@@ -1,4 +1,4 @@
-# Introduction
+# Introduction + CSS Basics
 
 ## Shortcuts
 
@@ -86,3 +86,27 @@ Block element: take up full width that is available on the page
 Inline element: take up width that is required to display the content of an element
 
 explored google fonts: https://fonts.google.com/
+
+## Box Model
+
+![box model](box-model.png)
+
+- border can be specified using: `border: 5px #ff0101 solid;` which translates to `border: border-width border-color border-style`. Each of these values can be independently set as well
+- padding can be specified using: `padding: 30px 50px 70px 90px;` which translates to `padding: padding-top padding-right padding-bottom padding-left;`. When we want to set a given value on top & bottom (100px) and another value on left & right (50px) we can do this: `padding: 100px 50px`. And when we want to apply the same value (100px) for all sides, we can do this: `padding: 100px`.
+- margin can be specified using: `margin: 30px 50px 70px 90px;` (padding rules apply here too...)
+
+#### Box sizing
+
+Let us set:
+- width === 300px 
+- height === 300px
+
+- (default) When the property `box-sizing: content-box;` padding and border are not included within height and width
+- When the property `box-sizing: border-box;` padding and border are included within height and width
+
+If we want to center a block level element perfectly we can do so by setting 
+1. margin as auto 
+2. by setting a value to width
+
+ Eg. `margin: 100px auto` centers the block element in the center on the horizontal axis, but does not do the same on the vertical axis (since 100px is set)
+
