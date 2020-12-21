@@ -136,3 +136,19 @@ p::first-line {
   text-transform: uppercase;
 }
 ```
+
+## Measurement Units
+
+In general, css supports: Absolute and Relative
+
+- Absolute: are fixed units
+    - Pixel(px) (1px === 12.54cm), Centimeter(cm), Millimeter(mm), Inch(in), Points(pt), Pica(pc)
+As web devs, we usually use Pixels, other units are not recommend to be used
+
+
+- Relative units specify length relative t0 another property
+    - em, rem, vw, vh, %
+
+In case of relative units, the unit is relative to the value set on the parent element or the root element
+
+While em is relative to the font-size of its direct or nearest parent, rem is only relative to the html (root) font-size.
