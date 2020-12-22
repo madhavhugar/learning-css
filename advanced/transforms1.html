@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: orangered;
+            font-size: 60px;
+            color: palegoldenrod;
+            text-align: center;
+            margin: 350px auto;
+            padding-top: 55px;
+            box-sizing: border-box;
+            transition: transform 1s;
+        }
+
+        /* 2D transformations */
+        .box:hover {
+            transform: translate(100px, 200px);
+        }
+        .box:hover {
+            transform: rotate(90deg);
+        }
+        .box:hover {
+            transform: scaleY(0.5);
+        }
+        .box:hover {
+            transform: skew(30deg, 20deg);
+        }
+
+        /* 3D transfomations */
+        .box:hover {
+            transform: rotateZ(180deg);
+        }
+
+        /* Applying multiple tranforation simaltaneously */
+        .box:hover {
+            transform: translate(100px, 200px) rotateZ(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Box</div>
+</body>
+</html>

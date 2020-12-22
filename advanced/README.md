@@ -45,3 +45,18 @@ shorthand notation for the transition property is: `transition: width 1s 1s ease
 
 for setting multiple transitions: `transition: width 1s 1s ease-in, background-color 5s;`
 
+
+## Transforms
+
+The transform CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model.
+
+We can set the transform attributes to animate objects:
+
+![transform functions 1](transformsv1.png)
+
+![transform functions 2](transformsv2.png)
+
+See [demo](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+
+
+
