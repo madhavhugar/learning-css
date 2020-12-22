@@ -58,5 +58,19 @@ We can set the transform attributes to animate objects:
 
 See [demo](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 
+## Animations
 
+Keyframes and properties
+
+- (req) animation-name: the keyframe name
+- (req) animation-duration:
+- (optional) animation-delay: 
+- (optional) animation-iteration-count: for looping animations
+- (optional) animation-direction: allows animation in a specified direction [normal, reverse, alternate, alternate-reverse]
+- (optional) animation-timing-function: [ease, linear, ease-in, ease-out] similar to tranform functions
+- (optional) animation-fill-mode: related to starting and ending position of element
+
+Short form:
+
+`animation: <keyframe-name> 4s ease-in 2s infinite alternate both`
 
